@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Runner Bear</title>
+</head>
+<style>
+
+    @font-face {
+        font-family: 'PoliceJeu';
+        src: url(Neucha-Regular.ttf);
+    }
+
+    body button {
+    display: inline-block;
+    background-color: #933a13;
+    border-radius: 25px;
+    border: 2px double #ab600a;
+    color: #ebb105;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width:10%;
+    width: 150px;
+    height: 10.5%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 4px #000;
+    font-family: 'PoliceJeu';
+}
+   body button span {
+    font-size:4vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+body button:hover {
+  background-color: rgb(128, 4, 0);
+}
+
+body {
+color:white;
+background-color:#0f6d079a;
+background-image:url();
+}
+
+#jouer {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#edition {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#option {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#quitter {
+  position: absolute;
+  top: 71%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+footer button {
+    display: inline-block;
+    background-color: #933a13;
+    border-radius: 25px;
+    border: 2px double #ab600a;
+    color: #ebb105;
+    text-align: center;
+    font-size: 2.7vh;
+    padding: 10px;
+    width:10%;
+    width:50px;
+    height: 8.5%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 4px #000;
+    font-family: 'PoliceJeu';
+}
+#musique {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  transform: translate(-50%,-50%);
+}
+
+#bruitage {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  transform: translate(-50%,-50%);
+}
+
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1074969686476865537/1075076299548262430/photo_de_merde.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.percent{
+    font-size: 11.5vh
+}
+
+</style>
+<body>
+    
+    <button id="jouer" type="button"><span>Jouer</span></button><br>
+    <button id="edition" type="button"><span>Edition</span></button><br>
+    <button id="option" type="button"><span>Option</span></button><br>
+    <button id="quitter" type="button"><span>Quitter</span></button>
+
+    <script>
+        console.dir(document)
+        document.querySelector("#jouer").addEventListener("click",() => {
+         window.location.href ="./bouton jouer.html"
+        })
+        document.querySelector("#edition").addEventListener("click",() => {
+         window.location.href ="./bouton edition.html"
+        })
+        document.querySelector("#option").addEventListener("click",() => {
+         window.location.href ="./bouton option.html"
+        })
+        document.querySelector("#quitter").addEventListener("click",() => {
+         window.location.href ="./Première page jeu.html"
+        })
+
+        // Récupération de l'élément audio
+        var audio = Whoosh3.mp3 ("myAudio");
+
+        // Ecouteur d'événement pour la touche "espace" (sauter)
+        document.addEventListener("keydown", function(event) {
+          if (event.code === "Space") {
+            audio.play();
+          }
+        }); 
+
+        // Ecouteur d'événement pour la touche "flèche bas" (se baisser)
+        document.addEventListener("keydown", function(event) {
+          if (event.code === "ArrowDown") {
+            audio.play();
+          }
+        });
+
+    </script>
+    <div id="bruitage_saut">
+      <embed src="Whoosh3.mp3"/>
+    </div>
+    
+</body>
+<div id="fond" class="image_de_fond"></div>
+<footer>
+    <button id="musique"onclick="Whoosh3.mp3('myAudio').play()"><span>♪</span></button>
+      <audio id="myAudio" src="Whoosh3.mp3" hidden></audio>
+    <button id="bruitage"><span>🔊</span></button>
+</footer>
+
+</html>

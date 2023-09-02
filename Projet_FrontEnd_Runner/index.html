@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="jeu">
+            <div class="perso">
+                <img src="course 1.png" alt="">
+            </div>
+            <div class="obstacles_bas">
+                <img src="Rondelle tronc d'abre.png">
+            </div>
+            <div class="obstacles_haut">
+                <img src="Abeille jeu.png">
+            </div>
+            <div id="poiuy">
+                <audio src="Whoosh3.mp3" controls></audio>
+            </div>
+            <h2>Score: <span id="score">0</span></h2>
+        </div>
+    </section>
+
+    <div class="control">
+        <button onclick="sauter()">SAUTER</button>
+        <a href="index.html">START</a>
+        <button id="retour">Retour</button>
+    </div>
+
+    <script src="runner.js">
+        console.dir(document)
+      document.querySelector("#retour").addEventListener("click",() => {
+       window.location.href ="./menu principal.html"
+      })
+    </script>
+</body>
+<footer>
+    <button id="musique"><span>♪</span></button>
+    <button id="bruitage"><span>🔊</span></button>
+</footer>
+</html>

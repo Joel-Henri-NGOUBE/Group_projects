@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos - Runner Bear</title>
+</head>
+<style>
+
+    @font-face {
+        font-family: 'PoliceJeu';
+        src: url(Neucha-Regular.ttf);
+    }
+#musique {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  transform: translate(-50%,-50%);
+}
+
+#bruitage {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  transform: translate(-50%,-50%);
+}
+
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1074969686476865537/1075076299548262430/photo_de_merde.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+footer button {
+    display: inline-block;
+    background-color: #933a13;
+    border-radius: 25px;
+    border: 2px double #ab600a;
+    color: #ebb105;
+    text-align: center;
+    font-size: 2.7vh;
+    padding: 10px;
+    width:10%;
+    width:50px;
+    height: 8.5%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 4px #000;
+    font-family: 'PoliceJeu';
+}
+body button span {
+    font-size:4vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+body button {
+    display: inline-block;
+    background-color: #933a13;
+    border-radius: 25px;
+    border: 2px double #ab600a;
+    color: #ebb105;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width:10%;
+    width: 150px;
+    height: 10.5%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 4px #000;
+    font-family: 'PoliceJeu';
+}
+#retour {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  transform: translate(-50%,-50%)
+}
+body button:hover {
+  background-color: rgb(128, 4, 0);
+}
+p{
+  font-family: 'PoliceJeu';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #ebb105;
+  text-align: center;
+  text-shadow: 4px 4px 4px #000;
+  font-size: 28px;
+  padding: 20px;
+  width:10%;
+  width: 850px;
+  height: 10.5%;
+}
+</style>
+<body>
+  <button id="retour"><span>Retour</span></button>
+  <p>Jeu réalisé par le groupe 8 de la promotion Web 1 2022-2023 composé de : Adrien, Tom, Emmanuel, Omar, Romario, Léo, Joel et Hemmy-Lola. <br>
+    Dans le cadre d'un projet de groupe d'une durée d'une semaine, nous avons mis en pratique notre apprentissage des langages HTML, CSS et JavaScript.
+  </p>
+    <footer>
+        <button id="musique">♪</button>
+        <button id="bruitage">🔊</button>
+    </footer>
+    <div id="fond" class="image_de_fond"></div>
+</body>

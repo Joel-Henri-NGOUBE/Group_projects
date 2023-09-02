@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner Bear</title>
+</head>
+<style>
+
+    @font-face {
+        font-family: 'PoliceJeu';
+        src: url(Neucha-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: 'TitreJeu';
+        src: url(HennyPenny-Regular.ttf);
+    }
+    #background{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+  header {
+    font-family: 'TitreJeu';
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+button {
+    display: inline-block;
+    background-color: #933a13;
+    border-radius: 25px;
+    border: 2px double #ab600a;
+    color: #ebb105;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width:10%;
+    width: 150px;
+    height: 12.5%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 4px #000;
+    font-family: 'PoliceJeu';
+}
+   button span {
+    font-size:4.5vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+  button:hover {
+    background-color: rgb(128, 4, 0);
+}
+
+  body {
+    color:rgb(128, 4, 0);
+    text-shadow: 5px 5px 5px #000;
+}
+
+  #entrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+  .percent{
+    font-size: 500%
+}
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1074969686476865537/1075076299548262430/photo_de_merde.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+</style>
+<header>
+    <h1 class="percent">RUNNER BEAR</h1>
+</header>
+<body>
+    
+    <button id="entrer" type="button" href='menu principal.html'><span>ENTRER</span></button>
+    <script>
+        document.querySelector("#entrer").addEventListener("click",() => {
+         window.location.href ="./menu principal.html"
+        })
+    </script>
+</body>
+<div id="fond" class="image_de_fond"></div>
+</html>
