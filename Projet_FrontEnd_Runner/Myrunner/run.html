@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    html,body{
+            height: 100vh;
+            width:100vw;
+            margin: 0;
+            background-color:rgb(104, 67, 4);
+            background-image: url('./foret.webp');
+            background-size: contain;
+            background-attachment: fixed;
+            background-position: center;
+            /*align-content: center;*/
+        }
+        div#ours,div#saute{
+            display: flex;
+            height:60vh;
+            width:5.5vw;
+            margin: 0;        
+            align-items: flex-end;
+        }
+
+        div#accroupi{
+            display: flex;
+            height:60vh;
+            width:7vw;
+            margin:0;
+            align-items: flex-end;
+        }
+        
+        html{
+            display: flex; 
+        }
+        #saute{
+           /*display: flex;
+           /*width : 70px;*/
+           /*justify-content: center;*/
+           /*flex-flow: row nowrap;*/
+           /*align-items: flex-end;
+           /*border: 30px solid red;*/
+           animation-name: bearjump; 
+           animation-duration: 2s;
+           animation-iteration-count: 1;
+           animation-timing-function: linear;
+        }
+        div#zone{
+            display: flex;
+            /*flex-direction: row;*/
+        }
+        /* #ours,#accroupi{ */
+           /* display: flex; */
+           /*width : 70px;*/
+           /*justify-content: center;*/
+           /*align-items: center;
+           flex-flow: row wrap;}*/
+        #accroupi {
+           animation-name: bearbending; 
+           animation-duration: 0.20s;
+           animation-iteration-count: 1; 
+        }
+        div#ground{
+            background-color : rgb(104, 67, 4);
+            height: 39.7vh;
+            width: 100vw;
+            position: absolute;
+            bottom:0;
+            background-image: url('./Boutdeterre4.svg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            
+        }
+        /* div#obstable{
+            display: flex;
+            /*background-color: bisque;
+            /*box-sizing:border-box;*/
+            /*margin: 5px solid brown;*/
+           /* margin: 0;
+            width:50px;
+            height: 30px;
+            align-items: center;
+            /*position: 30px;*/
+       /* }*/
+        /*div#obstable{
+            display: flex;
+            /*background-color: bisque;
+            /*box-sizing:border-box;*/
+            /*margin: 5px solid brown;*/
+            /*margin: 0;
+            /*width:50px;
+            height: 30px;*/
+            /*justify-content: flex-end;
+            align-items: flex-end;*/
+            /*position: 30px;*/
+        /*}*/
+        div.haut{     
+            display: flex;
+            /*box-sizing:border-box;
+            /*border: 5px solid brown;*/
+            height:7vh;
+            width:3.1vw;
+            margin: 0;        
+            align-items: center;
+            position: absolute;
+            right: 0;
+            top: 40.5vh;
+            /* background-image: url('./bunchtree.svg');
+            background-size: cover; */
+            animation-name: obstaclemove;
+            animation-duration: 5s;
+            animation-iteration-count: 1 ;
+            animation-delay: 0s;
+            animation-timing-function: linear;
+        }
+        div.obstacle{
+            display: flex;
+            /*box-sizing:border-box;
+            /*border: 5px solid brown;*/
+            height:7vh;
+            width:3.1vw;
+            margin: 0;        
+            align-items: center;
+            position: absolute;
+            right: 0;
+            top: 53vh;
+            /* background-image: url('./bunchtree.svg');
+            background-size: cover; */
+            animation-name: obstaclemove;
+            animation-duration: 5s;
+            animation-iteration-count: 1 ;
+            animation-delay: 0s;
+            animation-timing-function: linear;
+        }
+        
+        @keyframes obstaclemove{
+           0%{
+            transform: translateX(40);
+           }
+           100%{
+            transform: translateX(-100vw);
+           }
+        }
+        
+        @keyframes bearjump{
+            0%,100%{transform: translateY(0)}
+            45%,55%{transform: translateY(-10.5vh)}
+            /*0%{transform: translateY(0)}*/
+        }
+        @keyframes bearbending{
+            0%,100%{transform: translateY(0)}
+            45%,55%{transform: translateY(2px)}
+            
+        }
+
+    
+</style>
+<body>
+    <div id="zone">
+
+        <div id="ours">
+            <img src="./walkingbear.svg" alt="mince" height="33.3%">
+        </div>
+
+        <!-- <div id = "obstacle">
+            <img src="./tronc_cerne.svg" alt="arbre" width = "40px">
+        </div>
+        <div id ="obstacle2">
+            <img src="./essaim.svg" alt="abeilles" width="40px">
+        </div> -->
+        <!-- <div id="obstacle3">Faire en sorte de générer les obstacles en créant dans 
+la grande div de nouvelles div obstacle
+        </div> -->
+    </div>
+
+    <div id="ground">
+        
+    </div>
+    
+    <script>
+        // async function have(){
+    
+            // let d =  fetch("./niveau1.jmpr")
+            // console.log(d)
+        //     let s = d.json()
+        //     return(s)
+        // }
+        // let r = have()
+        // console.log(r)
+        // console.log(r.blocks)
+
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        document.addEventListener("keydown",(event) => {
+            if (event.key == "ArrowUp"){
+                    document.querySelector("#ours").outerHTML = "<div id = 'saute'><img src='./jumpingbear.svg' height= '33.3%'></div>"
+                   
+            }
+        })
+       
+        document.addEventListener("keyup",(event) => {
+            if (event.key == "ArrowUp"){
+                    document.querySelector("#saute").outerHTML = "<div id = 'ours'><img src='./walkingbear.svg' alt='mince' height='33.3%'></div>"
+                }
+            })
+            
+        document.addEventListener("keydown",(event) => {
+            if (event.key == "ArrowDown"){
+                    document.querySelector("#ours").outerHTML = "<div id = 'accroupi'><img src='./squattingbear.svg' width= '100%'></div>"
+
+                    }
+            })
+        document.addEventListener("keyup",(event) => {
+            if (event.key == "ArrowDown"){
+                    document.querySelector("#accroupi").outerHTML = "<div id = 'ours'><img src='./walkingbear.svg' alt='mince' height='33.3%'></div>"
+
+                    }
+            })
+        
+        fetch("./niveau.jmpr")
+        .then((result) => {
+            return result.json()
+        })
+                .then(function afficher(r){
+                    
+                    let i = 0;
+                    let id = 0;
+                    let j = 0
+                    let Bees = []
+                    //console.log(document.querySelector("div#obstacle").style.animationDuration)
+                     while ( i < r.blocks.length){
+                    
+
+                        if (r.blocks[i].type == "B"){
+                            document.querySelector("div#zone").innerHTML += "<div class = 'obstacle' id='"+i+"'><img src='./tronc_cerne.svg' alt='arbre' width = '100%'></div>"
+                            console.log(r.blocks[i].type)
+                            // console.dir(document.querySelector("div#obstacle"))
+                            // j = j + 2
+                            //console.log(j)
+                            // document.querySelector("div#obstacle").style.animationDuration = "5s"
+                            // document.querySelector("div#obstacle").style.animationDelay = j+"s"
+                            // console.log(document.querySelector("div#obstacle").style.animationDelay)
+                                
+                                
+                            }
+                            
+                        else if (r.blocks[i].type == "C"){
+                            document.querySelector("div#zone").innerHTML += "<div class = 'obstacle' id='"+i+"' ><img src='./essaim.svg' alt='arbre' width = '100%'></div>"
+                            Bees.push(i)
+                            console.log(r.blocks[i].type)
+                            // console.log(document.querySelector("#"+i).style)
+
+                            // id = "obstacle2"
+                            // j = j + 2
+                            //console.log(j)
+                            // document.querySelector("div#obstacle2").style.animationDuration = "5s"
+                            // document.querySelector("div#obstacle2").style.animationDelay = j+"s"
+                            // console.log(document.querySelector("div#obstacle2").style.animationDelay)
+                            
+                        }
+                         else{
+                            document.querySelector("div#zone").innerHTML += "<div class = 'obstacle' id='"+i+"'></div>"
+                        //     document.querySelector("div#zone").innerHTML += "<div id = 'obstacle2'><img src='./essaim.svg' alt='arbre' width = '40px'></div>"
+                        // console.log(document.querySelector("#"+i).style)
+                        console.log(r.blocks[i].type)
+                        //     id = "obstacle2"
+                            // j = j + 2
+                        //     //console.log(j)
+                        //     document.querySelector("div#obstacle2").style.animationDelay = j+"s"
+                        //     console.log(document.querySelector("div#obstacle2").style.animationDelay)
+                          }
+                        i = i + 1
+                    }
+                    i = 0
+                    let Arr = []
+                    while ( i < r.blocks.length){
+                        Arr = document.querySelectorAll(".obstacle")
+                        Arr[i].style.animationDuration = "5s"
+                        j = j + 2
+                        Arr[i].style.animationDelay = j+"s"
+                        for (let n of Bees){
+                            if (n == i){
+                                Arr[i].style.top = "40.5vh"
+                            }
+                        }
+                        // Arr[i].style.animationIterationCount = "1"
+                        i = i + 1
+                    }
+                })
+
+
+
+
+
+
+
+
+
+
+
+
+
+                // else {
+                //     continue
+                // }
+                // document.querySelector("div#"+id).addEventListener("animationend",(i) => {
+                //     console.log(i)
+                //})
+                // r.blocks.shift()
+                // if (r.blocks.length == 0){
+                //     return
+                // }
+                // return afficher(r)
+
+                //  if (r.blocks[i].type == "B"){
+                //     document.querySelector("div#zone").innerHTML += "<div id = 'obstacle'><img src='./tronc_cerne.svg' alt='arbre' width = '40px'></div>"
+                //     console.log(r.blocks[i].type)
+                //     id = "obstacle"
+                //     document.querySelector("div#obstacle").addEventListener("animationend",(event) => {
+                //     console.log(i)
+                //     })
+                // }
+                // else if (r.blocks[i].type == "C"){
+                //     document.querySelector("div#zone").innerHTML += "<div id = 'obstacle2'><img src='./essaim.svg' alt='arbre' width = '40px'></div>"
+                //     console.log(r.blocks[i].type)
+                //     id = "obstacle2"
+                //     document.querySelector("div#obstacle2").addEventListener("animationend",(event) => {
+                //     console.log(i)
+                //     })
+                // }
+    </script>
+
+</body>
+
+</html>
