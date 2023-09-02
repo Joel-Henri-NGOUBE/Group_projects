@@ -1,0 +1,237 @@
+[
+    {
+        "email": "admin@a",
+        "password": "$2y$10$sG7n3ElxqV4H73gbeNfdhuX09Z87PcEr5HdTmHfkj\/A6BG3Y98lq2",
+        "messages_recus": [
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "ezaf",
+                "timestamp": "2023-05-26 09:53:13"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fez",
+                "timestamp": "2023-05-26 09:53:21"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:23"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:25"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:26"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:28"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:29"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:30"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:32"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:35"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:38"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:51"
+            }
+        ],
+        "messages_envoyes": [
+            {
+                "expediteur": "admin@a",
+                "destinataire": "luka@gmail.com",
+                "contenu": "qdfg",
+                "timestamp": "2023-05-26 09:52:36"
+            }
+        ]
+    },
+    {
+        "email": "luka@gmail.com",
+        "password": "$2y$10$swWUJSrUIelUx7YvCvSv1etevGIzJ7lMjgRzhfH2sKRdnng1SmmSa",
+        "messages_recus": [
+            {
+                "expediteur": "admin@a",
+                "destinataire": "luka@gmail.com",
+                "contenu": "qdfg",
+                "timestamp": "2023-05-26 09:52:36"
+            },
+            {
+                "expediteur": "onestaloklm@gmail.com",
+                "destinataire": "luka@gmail.com",
+                "contenu": "bonjour",
+                "timestamp": "2023-05-26 11:23:59"
+            }
+        ],
+        "messages_envoyes": [
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "ezaf",
+                "timestamp": "2023-05-26 09:53:13"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fez",
+                "timestamp": "2023-05-26 09:53:21"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:23"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:25"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:26"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:28"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:29"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:30"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:32"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:35"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fqs",
+                "timestamp": "2023-05-26 09:53:38"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "admin@a",
+                "contenu": "fdsq",
+                "timestamp": "2023-05-26 09:53:51"
+            },
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "onestaloklm@gmail.com",
+                "contenu": "bonjour",
+                "timestamp": "2023-05-26 11:24:32"
+            }
+        ]
+    },
+    {
+        "email": "luka1@gmail.com",
+        "password": "$2y$10$KwD3ykbF6UEHYgMoZ3lvcuRJ6qqAeBJT4QnDirzphGxPMInJecsM2",
+        "messages_recus": [
+            {
+                "expediteur": "onestaloklm@gmail.com",
+                "destinataire": "luka1@gmail.com",
+                "contenu": "dsfsd",
+                "timestamp": "2023-05-26 11:04:19"
+            },
+            {
+                "expediteur": "onestaloklm@gmail.com",
+                "destinataire": "luka1@gmail.com",
+                "contenu": "fsqa",
+                "timestamp": "2023-05-26 11:04:23"
+            }
+        ],
+        "messages_envoyes": []
+    },
+    {
+        "email": "onestaloklm@gmail.com",
+        "password": "$2y$10$rwvqu5TuVrqIY35RMMSDmeQm.\/onD\/m7tJhKBKxTYiko47YEJ1KDS",
+        "messages_recus": [
+            {
+                "expediteur": "luka@gmail.com",
+                "destinataire": "onestaloklm@gmail.com",
+                "contenu": "bonjour",
+                "timestamp": "2023-05-26 11:24:32"
+            }
+        ],
+        "messages_envoyes": [
+            {
+                "expediteur": "onestaloklm@gmail.com",
+                "destinataire": "luka1@gmail.com",
+                "contenu": "dsfsd",
+                "timestamp": "2023-05-26 11:04:19"
+            },
+            {
+                "expediteur": "onestaloklm@gmail.com",
+                "destinataire": "luka1@gmail.com",
+                "contenu": "fsqa",
+                "timestamp": "2023-05-26 11:04:23"
+            },
+            {
+                "expediteur": "onestaloklm@gmail.com",
+                "destinataire": "luka@gmail.com",
+                "contenu": "bonjour",
+                "timestamp": "2023-05-26 11:23:59"
+            }
+        ]
+    }
+]

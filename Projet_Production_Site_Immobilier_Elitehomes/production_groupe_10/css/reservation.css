@@ -1,0 +1,73 @@
+@font-face {
+    font-family:'title';
+    src: url(Rosemode.ttf);
+  }
+  
+  @font-face {
+    font-family:'container';
+    src: url(Quicksand-Light.ttf);
+  }
+
+ 
+ body {
+            font-family: Arial, sans-serif;
+            background-color:#F5EFE0;
+            margin:0;
+            top: 20px;
+            padding:0;
+            color: #F5EFE0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin:0 auto;
+            left: 100px;
+            padding:10px;
+            background-color: #C9A769;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #F5EFE0;
+        }
+
+        .success-message {
+            color: green;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        .error-message {
+            color: red;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .reservation-details {
+            margin-top: 50px;
+        }
+
+        .reservation-details p {
+            margin: 5px 0;
+        }
+
+   .maintenance-button,
+        .home-button {
+            display: inline-block;
+            color: #F5EFE0;
+            margin-top: 20px;
+            text-decoration: none;
+            border: 1px solid #F5EFE0;
+            padding: 5px 10px;
+            border-radius: 3px;
+            background-color: #704E2E;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .maintenance-button:hover,
+        .home-button:hover {
+            background-color: #F5EFE0;
+            color: #000000;
+        }

@@ -1,0 +1,58 @@
+
+body {
+    background-color: var(--blanc-casse);
+    color: var(--marron-fonce);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'title';
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--blanc);
+    border: 1px solid var(--marron-fonce);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    padding: 4px;
+    width: 100%;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--sable);
+    color: var(--marron-fonce);
+    border: 1px solid var(--marron-fonce);
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: var(--marron-fonce);
+    background-color: var(--sable);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid var(--marron-fonce);
+    font-family: 'container';
+}
+

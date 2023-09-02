@@ -1,0 +1,22 @@
+body{
+    background-color: var(--blanc-casse);
+}
+
+.story{
+    padding:80px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    color: var(--marron-fonce);
+    font-family:'title';
+    font-style:italic;
+}
+
+p{
+    color:var(--marron-fonce);
+    font-family:'container';
+    font-style:italic;
+    font-size: 30px;
+}

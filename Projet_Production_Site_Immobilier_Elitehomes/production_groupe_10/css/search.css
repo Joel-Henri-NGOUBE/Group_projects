@@ -1,0 +1,55 @@
+
+ body {
+      background-color: var(--blanc-casse);
+      color: var(--noir);
+      padding: 20px;
+    }
+    
+    h1 {
+      color: var(--sable);
+      font-family: 'title';
+    }
+    
+    label {
+      color: var(--marron-fonce);
+      font-weight: bold;
+    }
+    
+    select, input[type="date"] {
+      width: 200px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid var(--marron-fonce);
+      font-family: 'container';
+    }
+    
+    button[type="submit"] {
+      background-color: var(--sable);
+      color: var(--blanc-casse);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family:'container'
+    }
+    
+    button[type="submit"]:hover {
+      background-color: var(--sable);
+    }
+    
+    hr {
+      border: 1px solid var(--marron-fonce);
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'container';
+    }
+    
+    a {
+      color: var(--marron-fonce);
+      text-decoration: none;
+      font-family: 'container';
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }

@@ -1,0 +1,40 @@
+@font-face {
+    font-family:'title';
+    src: url(Rosemode.ttf);
+  }
+  
+  @font-face {
+    font-family:'container';
+    src: url(Quicksand-Light.ttf);
+  }
+
+    
+    body {
+            background-color: #F5EFE0;
+            color: #000000;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #C9A769;
+            font-family:'container';
+        }
+
+        .reservation-group {
+            margin-bottom: 20px;
+            font-family:'container';
+        }
+
+        .reservation-group h3 {
+            color: #704E2E;
+            font-family:'container';
+        }
+
+        .reservation {
+            border: 1px solid #704E2E;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-family:'container';
+        }
+    

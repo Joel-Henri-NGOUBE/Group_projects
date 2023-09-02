@@ -1,0 +1,95 @@
+@font-face {
+  font-family:'title';
+  src: url(./css/Rosemode.ttf);
+}
+
+@font-face {
+  font-family:'container';
+  src: url(./css/Quicksand-Light.ttf);
+}
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+  background-color: var(--blanc-casse);
+}
+
+nav{
+  position: sticky;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--blanc-casse);
+    list-style: none;
+    font-family: 'title';
+    top: 0;
+    z-index: 999;
+  }
+  
+.navbar li {
+    margin-right: 10px;
+  }
+  
+.navbar a {
+    text-decoration: none;
+    color: var(--marron-fonce);
+  }
+  
+.brand {
+    font-weight: bold;
+    font-size: 60px;
+    font-family:'title';
+  }
+
+  .search-form {
+    display: flex;
+  }
+  
+.search-form input[type="text"] {
+    padding: 5px;
+    width: 200px;
+  }
+  
+.search-form button {
+    background: none;
+    border: none;
+    padding: 0;
+  } 
+
+.bx.bxs-user {
+    font-size: 25px;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--blanc-casse);
+  list-style: none;
+  font-family: 'container';
+  top: 0;
+  text-transform: uppercase;
+  /* z-index: 999; */
+}
+
+.pages li {
+  margin-right: 30px;
+}
+
+.pages a {
+  text-decoration: none;
+  color: var(--marron-fonce);
+}
+
+.pages a:hover {
+  color: var(--sable);
+}
+

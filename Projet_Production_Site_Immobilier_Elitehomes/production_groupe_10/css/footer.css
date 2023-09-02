@@ -1,0 +1,122 @@
+body{
+    line-height: 1.5;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color:var(--marron-fonce);
+    padding: -80px 0;
+    left: 0;
+    bottom: 0;
+    /* top: 100px; */
+    width: 100%;
+    z-index: 9999;
+    /* position: fixed; */
+}
+
+.footer-col {
+    width:25%;
+    padding: 0 15px;
+    font-family:'container';
+}
+
+.footer-col h4{
+    font-size:18px;
+    color:var(--sable);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'title';
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+        content:'';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color:var(--blanc);
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+        font-family:'container';
+    }
+
+    .footer-col ul li a{
+        font-size: 13px;
+        text-transform: capitalize;
+        color:var(--sable) ;
+        text-decoration: none;
+        font-weight:300;
+        color:var(--blanc-casse);
+        display: block;
+        transition: all 0.3s ease;
+        font-family:'container';
+        text-transform: uppercase;
+    }
+
+    .footer-col ul li a:hover{
+        color:var(--sable);
+        padding-left: 4px;
+    }
+
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color:var(--marron-fonce);
+        margin-right: 10px 10px 0 ;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color:var(--sable) ;
+        transition: all 0.5s ease;
+    }
+
+    .footer-col .social-links a:hover{
+        color:var(--blanc-casse);
+        background-color: var(--sable);
+    }
+
+    .footer-text{
+        color:var(--blanc-casse);
+        text-align: center;
+        font-family:'container';
+        text-transform: uppercase;
+    }
+
+    @media(max-width: 767px){
+        .footer-col{
+            width: 25%;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media(max-width: 574px){
+        .footer-col{
+            width: 100%;
+        }
+    }

@@ -1,0 +1,109 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    background-color: var(--blanc-casse);
+}
+
+.card{
+    background-color: var(--blanc);
+}
+.profile_name{
+    font-family:'title';
+    padding-bottom: 20px;  
+}
+
+.profile .card {
+    border-radius: 10px;
+}
+
+.profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'title';
+    color:var(--sable);
+}
+
+.profile .card h4 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family:'container';
+    color:var(--marron-fonce);
+    text-transform: uppercase;
+}
+
+.profile .card p {
+    font-size: 14px;
+    color: var(--marron-fonce);
+    font-family:'container';
+}
+
+.profile .table th,
+.profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: var(--marron-fonce);
+    font-family:'container';
+}
+.inputBx input {
+    width: 100%;
+    padding: 10px 100px; 
+    font-weight: 400;
+    border: 1px solid var(--marron-fonce);
+    letter-spacing: 1px;
+    color: var(--marron-fonce);
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.inputBx a{
+    font-family: 'container';
+    color:var(--sable);
+}
+
+.inputBx input[type="submit"] {
+    background-color: var(--sable);
+    color: var(--blanc);
+    outline: 0;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 30px; 
+    font-size: 14px;
+    font-family:'container';
+}
+
+.inputBx input[type="submit"]:hover {
+    background-color: rgba(255, 172, 17, 0, 76);
+}
+
+ a.button {
+        display: inline-block;
+        padding: 5px 20px;
+        background-color: var(--marron-fonce); 
+        color: var(--blanc-casse); 
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 50px;
+        font-family: 'container';
+ }
+
+a.button:hover {
+    background-color: var(--sable); 
+ }
+
+ .reservation{
+    font-family: 'container';
+    color: var(--marron-fonce);
+ }

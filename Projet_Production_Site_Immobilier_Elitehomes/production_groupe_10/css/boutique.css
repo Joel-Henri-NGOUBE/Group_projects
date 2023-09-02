@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.photo-section img{
+    height:80vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+    position: relative;
+}
+
+#text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: var(--sable);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family:'title';
+}
+
+
+  
+.menu {
+    display: flex;
+}
+
+
+.menu li a:hover::after {
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--blanc-casse);
+    padding: 50px 10px;
+  
+}
+
+.title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family:'title';
+    position: relative;
+    top: -40px;
+
+}
+
+
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+     position: relative;
+    top: -80px;
+    left: 10px;
+
+}
+
+.dishes .dish {
+    height: 280px;
+    width: 22%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+     top: 10px;
+}
+
+.dishes .dish .image-container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.dishes .dish img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.dish p{
+  font-size:22px;
+  color: var(--marron-fonce);
+  font-family:'container';
+}
+
+
+
+
+
+

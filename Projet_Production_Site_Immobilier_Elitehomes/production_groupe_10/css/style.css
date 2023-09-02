@@ -1,0 +1,17 @@
+:root{
+    --noir: #000000;
+    --marron-fonce: #704E2E;
+    --sable: #C9A769;
+    --blanc-casse: #F5EFE0;
+    --blanc: #FFFFFF;
+}
+
+@font-face {
+    font-family:'title';
+    src: url(./css/Rosemode.ttf);
+  }
+  
+  @font-face {
+    font-family:'container';
+    src: url(./css/Quicksand-Light.ttf);
+  }

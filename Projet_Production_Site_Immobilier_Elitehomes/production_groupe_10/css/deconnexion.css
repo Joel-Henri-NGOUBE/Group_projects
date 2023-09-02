@@ -1,0 +1,11 @@
+body{
+    background-color: var(--blanc-casse);
+    font-family:'container';
+}
+
+p{
+    padding:40px;
+    font-size: 40px;
+    font-family: 'container';
+    color: var(--sable);
+}

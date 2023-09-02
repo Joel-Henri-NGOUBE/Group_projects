@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+section .imgBox {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: url(pics/luxe3.jpeg);
+    background-size: cover;
+}
+
+section .contentBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+section .contentBox .formBox h2 {
+    color: var(--marron-fonce);
+    font-weight: 600;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-family:'title';
+}
+
+.inputBx span {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: var(--marron-fonce);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family:'container';
+}
+
+.inputBx {
+    margin-bottom: 20px;
+}
+
+.inputBx input {
+    width: 100%;
+    padding: 10px 100px; 
+    font-weight: 400;
+    border: 1px solid var(--marron-fonce);
+    letter-spacing: 1px;
+    color: var(--marron-fonce);
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.inputBx input[type="submit"] {
+    background-color: var(--sable);
+    color: var(--blanc);
+    outline: 0;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family:'container';
+}
+
+.inputBx input[type="submit"]:hover {
+    background-color: rgba(255, 172, 17, 0, 76);
+}
+
+.inputBx p {
+    color: var(--marron-fonce);
+    text-align: center;
+    font-size: 15px;
+    font-family:'container';
+}
+
+.inputBx p a {
+    color: var(--sable);
+    font-size: 20px;
+    font-family:'container';
+}
+
+@media (max-width: 768px) {
+    section .imgBox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    section .contentBox {
+        width: 100%;
+        z-index: 1;
+    }
+
+    section .contentBox .formBox {
+        background-color: var(--sable);
+        padding: 30px;
+    }
+}
+
+.inputBx input::placeholder {
+    color: #bbb9b6;
+    font-size: 16px; 
+    letter-spacing: 2px; 
+    font-family:'container';
+}
+
+
