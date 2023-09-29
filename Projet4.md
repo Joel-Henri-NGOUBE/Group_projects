@@ -12,7 +12,7 @@ L'exécution du projet sera possible en suivant les étapes suivantes:
     <li>Télécharger le dossier du projet sur GitHub.</li>
     <li>Ouvrir le dossier du projet dans l'IDE.</li>
     <li>Ouvrir XAMPP et cliquer sur "Start" pour les modules Apache et MySQL puis sur Admin pour ouvrir PHPMyAdmin dans votre navigateur.</li>
-    <li>Aller sur PHPMyAdmin ou sur MySQL et importer le fichier de création et de remplissage de la base de données <file>elitehomes\5.sql</file> </li>
+    <li>Aller sur PHPMyAdmin ou sur MySQL et importer le fichier de création et de remplissage de la base de données <code>elitehomes_5.sql</code> </li>
     <li>Taper "localhost" dans votre navigateur et ouvrir le dossier du projet</li>
     <li>Taper "localhost" dans votre navigateur et ouvrir le dossier du projet</li>
 </ul>
