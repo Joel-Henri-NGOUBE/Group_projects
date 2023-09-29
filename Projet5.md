@@ -1,6 +1,6 @@
 Le fichier à lancer est <code>RPGtextuel.py</code>.
 
-Ceci est un projet textuel et pour bénéficier d'un bon espace d'exécution vous pouvez l'éxécuter sur <b>Google Colab</b>: vous n'avez pas besoin de grand-chose, il vous suffit d'ouvrir un nouveau fichier et d'y coller le code puis de l'exécuter directement sur <b>Google Colab<b> (pour une bonne perspective).
+Ceci est un projet textuel et pour bénéficier d'un bon espace d'exécution vous pouvez l'éxécuter sur <b>Google Colab</b>: vous n'avez pas besoin de grand-chose, il vous suffit d'ouvrir un nouveau fichier et d'y coller le code puis de l'exécuter directement sur <b>Google Colab</b> (pour une bonne perspective).
 
 Cela dit si vous ne souhaitez pas passer par <b>Google Colab</b>, il vous faudra:
 <ul>
