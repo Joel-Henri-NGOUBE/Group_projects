@@ -14,4 +14,4 @@ Les projets 1, 2 et 3 sont inachevés:
 
 Le plus simple à tester est le projet 3.
 
-Pour le tester il suffit de télécharger le projet et d'ouvrir un IDE et de cliquer sur "GO LIVE" dans le fichier <code>index.html</code>.
+Pour le tester il suffit de télécharger le projet et d'ouvrir un IDE et de cliquer sur "GO LIVE" dans le fichier <code>index.html</code> en bas à droite.
