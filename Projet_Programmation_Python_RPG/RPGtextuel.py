@@ -18,10 +18,16 @@ save_data(data, "benoit")
 # Load the data from the file
 loaded_data = load_data("benoit")
 
-print(loaded_data)
+# print(loaded_data)
 # Output: {'name': 'John Smith', 'age': 35, 'is_employee': True}
 
-
+def legende():
+  print("` Arbre `: Désigne l'emplacement d'un arbre, il s'agit d'un obstacle.")
+  print("`monster`: Désigne l'emplacement d'un monstre à combattre.")
+  print("`Coffret`: Désigne l'emplacement d'un coffret pour avoir de nouvelles armes ou de nouveaux booss.")
+  print("`   0   `: Désigne un emplacement libre sur lequel on peut se déplacer.")
+  print("`  BOY  `: Désigne votre emplacement.")
+  
 def nom_du_joueur():
   print("Comment t'appelles-tu jeune aventurier ?")
   a = str(input())
@@ -50,7 +56,7 @@ def menu_principal():
   elif b == "2":
     print("partie sauvegardé")
   elif b =="3":
-    print("Crée par Emmanuel, Joel, Léo et Hemmy-Lola, ce RPG a pour but de mettre en application les connaissances apprises de manières ludiques. \n date de publication: 15/01/2023 \n langage utilisé: Python")
+    print("Crée par Emmanuel, Joël, Léo et Hemmy-Lola, ce RPG a pour but de mettre en application les connaissances apprises de manières ludiques. \n date de publication: 15/01/2023 \n langage utilisé: Python")
     menu_principal()
   elif b == "4":
      debut_du_jeu()
@@ -163,7 +169,7 @@ def coffret_action():
 '''
 
 def options(M):
-  print(" 1- Map \n 2- Inventaire \n 3- monstres \n 4- Quitter")
+  print(" 1- Map \n 2- Inventaire \n 3- Légende \n 4- Quitter")
   a = str(input())
   if a == "1": 
     affichage(M)
@@ -172,7 +178,8 @@ def options(M):
     inventaire(E,D)
     move(M)
   elif a == "3":
-    print("monstres_greenland")
+    legende()
+    # print("monstres_greenland")
     move(M)
   elif a == "4":
     print("Es-tu sûr de vouloir quitter ta partie ? \n A- oui \n B- non")
@@ -323,7 +330,7 @@ def troisieme_monde():
 
 
 def debut_du_jeu():
-  print("RPG LAND \n Seras-tu trouver le trésor ? Le but est simple: Traverse les différentes terres inconnus afin d'atteindre la fameuse île au trésor... \n 1- Entrée \n 2- Quitter")
+  print("RPG LAND \n Sauras-tu trouver le trésor ? Le but est simple: Traverse les différentes terres inconnus afin d'atteindre la fameuse île au trésor... \n 1- Entrée \n 2- Quitter")
   a = str(input())
   if a == "1":
     menu_principal()

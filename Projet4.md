@@ -12,6 +12,7 @@ Pour pouvoir lancer l'exécution du projet <b>Site Immobilier</b> vous devez dis
 L'exécution du projet sera possible en suivant les étapes suivantes:
 <ol>
     <li>Télécharger le dossier du projet sur GitHub.</li>
+    <li>Télécharger PHP si cela n'a pas encore été fait.</li>
     <li>Ouvrir XAMPP et cliquer sur "Start" pour les modules Apache et MySQL puis sur "Admin" pour ouvrir PHPMyAdmin dans votre navigateur.</li>
     <li>Aller sur PHPMyAdmin ou sur MySQL et importer le fichier de création et de remplissage de la base de données <code>elitehomes_5.sql</code>.</li>
     <li>Taper "localhost" dans votre navigateur et ouvrir le dossier du projet.</li>
