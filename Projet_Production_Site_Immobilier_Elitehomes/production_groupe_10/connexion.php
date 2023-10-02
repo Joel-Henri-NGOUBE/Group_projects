@@ -16,6 +16,7 @@ try {
 if (isset($_POST['login'])) {
     $mail = $_POST['mail'];
     $password = $_POST['password'];
+    echo("$mail $password");
 
     $sql = "SELECT * FROM users WHERE mail = :mail";
     $requete = $pdo->prepare($sql);

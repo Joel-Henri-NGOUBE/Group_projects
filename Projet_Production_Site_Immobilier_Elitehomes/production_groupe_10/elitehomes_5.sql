@@ -239,7 +239,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `name`, `first_name`, `mail`, `password`, `phone`, `gender`, `roles`, `birthday`, `status`) VALUES
 (19, 'joel', 'jeol', 'joel@gmail.com', '$2y$10$twicKP3pIzG2hJIioVpObemQat4t9BEscbHOnUoFCygIYxTcdcFZ2', 667195688, 'Male', 'client', '2005-06-11', 'activé'),
-(18, 'KALLOGA', 'Sira', 'sira@gmail.com', '$2y$10$bYp0lUvgUblxFnffmSMQW.xFd7F.mrHOXSmjJC23RlNSGELkymqlC', 667195688, 'Female', 'superadmin', '2005-06-09', 'activé'),
+(18, 'KALLOGA', 'Sira', 'sira@gmail.com', '$2y$10$AVbkbTl.YyK/d6lBX9iQke375DvLff4cm1HlZ/Di8kdoEB7GzNos6', 667195688, 'Female', 'superadmin', '2005-06-09', 'activé'),
 (17, 'VOLATAHINDRAZANA', 'felicia', 'lahila@gmail.com', '$2y$10$YkJ28YQVh3gQg4alh0Hie.QEHSgE919HEPI4a5Hh98ytsTN2W.jVO', 667195688, 'Female', 'entretien', '2005-06-18', 'activé');
 
 -- --------------------------------------------------------
