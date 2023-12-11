@@ -10,8 +10,8 @@ Projet5: <b>Projet_Programmation_Python_RPG</b>
 - Stack: Google Colab ou PowerShell ou tout autre terminal.
 - Langage: Python.
 
-Les projets 1, 2 et 3 sont inachevés:
+<!-- Les projets 1, 2 et 3 sont inachevés:
 
 Le plus simple à tester est le projet 2.
 
-Pour le tester il suffit de télécharger le projet et d'ouvrir un IDE et de cliquer sur "GO LIVE" dans le fichier <code>index.html</code> en bas à droite.
+Pour le tester il suffit de télécharger le projet et d'ouvrir un IDE et de cliquer sur "GO LIVE" dans le fichier <code>index.html</code> en bas à droite. -->
